@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Video Storyboard Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-900 text-white">
+    <div id="root"></div>
+    <script src="https://unpkg.com/preact@10.19.6/dist/preact.min.js"></script>
+    <script src="https://unpkg.com/preact@10.19.6/hooks/dist/hooks.umd.js"></script>
+    <script src="https://unpkg.com/htm@3.1.1/dist/htm.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script type="module" src="./index.tsx"></script>
+</body>
+</html>

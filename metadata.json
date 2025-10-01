@@ -1,0 +1,5 @@
+{
+  "name": "Meg An AI Video Storyboard Generator",
+  "description": "A web application that uses generative AI to create video clips from text prompts, allowing users to build and preview a storyboard.",
+  "requestFramePermissions": []
+}
